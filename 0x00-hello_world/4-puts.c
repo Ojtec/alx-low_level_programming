@@ -3,7 +3,8 @@
 /**
  * main - Printing
  *
- * Return: Alwaya 0 (Successful)
+ * Descrription: used the main funtion to print
+ * Return: 0
  */
 int main(void)
 {
