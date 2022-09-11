@@ -1,31 +1,35 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
+
 /**
- *  main - prints if answer is positive, zero or negative
+ *  main - Prints if number is positer,zero or negative
  *
- *  Description: use the function 
- *  Return: Always(okay)
-*/
+ *  Return: Output(okay)
+ */
 int main(void)
 {
+
 	int n;
 
+
 	srand(time(0));
+
 	n = rand() - RAND_MAX / 2;
 
 	if (n > 0)
 	{
-		printf("%d is positive\n", n);
+		printf("%d is positive\n",n);
 	}
 	else if (n == 0)
 	{
-		printf("%d is zero\n", n);
+		printf("%d is zero\n",n);
 	}
-	else
+	else (n < 0)
 	{
-		printf("%d is negative\n", n);
+		printf("%d is negative\n",n);
 	}
 
 	return (0);
-}
 
+}
