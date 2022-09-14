@@ -1,12 +1,1 @@
-putchar
-insomnia
-alphabet
-islower
-isalpha
-sign
-world
-important
-federal
-learn
-a+b
-battery
+Write a program that prints _putchar, followed by a new line.
