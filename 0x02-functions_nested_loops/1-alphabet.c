@@ -4,7 +4,7 @@
  *
  * Return: output(Okay)
  */
-void print_alphabet(void)
+int print_alphabet(void)
 {
 	char c;
 
