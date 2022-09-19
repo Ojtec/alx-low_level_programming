@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
- * main - reseting the integer value of 98
+ * reset_to_98 - reseting the integer value of 98
+ *
  * @n: parameter
  * Return: nothing
  */
