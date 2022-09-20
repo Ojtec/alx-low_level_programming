@@ -1,12 +1,11 @@
 #include "main.h"
 
-
 /**
- * swap.c - swap two integer values
+ * swap_int - swap two integer values
  *
  *@a: first integer
  *@b: second integer
- *Return: 0
+ *Return: nothing
  */
 
 void swap_int(int *a, int *b)
