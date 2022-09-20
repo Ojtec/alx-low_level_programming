@@ -6,7 +6,7 @@
  * print_rev - reverse order printing
  *
  * @s: string to reverse
- * Return: 0
+ * Return: always 0
  */
 
 void print_rev(char *s)
